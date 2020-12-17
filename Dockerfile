@@ -15,14 +15,3 @@ COPY . .
 EXPOSE 8080
 
 CMD [ "node", "handlers.js" ]
-
-# 1. build docker container
-#$docker build -t [user/tag] . 
-
-#check it's in images
-#$docker images
-
-#to see running containers
-#docker ps 
-
-#docker run -p 49160:8080 --name nci -d eoinco/ncilab6

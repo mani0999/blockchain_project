@@ -1,7 +1,7 @@
 const { promises } = require('dns')
 const Web3 = require('web3')
 
-const rpcURL = "https://ropsten.infura.io/v3/29909081a8eb4d88be572d92a3b37b58";
+const rpcURL = "https://ropsten.infura.io/v3/6e3a03c223764a82832f3efd31d7482c";
 
 const web3 = new Web3(rpcURL)
 
@@ -191,8 +191,8 @@ const abi = [
 	}
 ]
 
-const address = "0x616d0057798285f8c98718a90b43ff44cc6a40f9"
-const owner = "0x1e83857F5cE64C2D7d7F485EDcbd1407E2106c36"
+const address = "0x40950445281b8fef332964747861005df8a5b77f"
+const owner = "0xdC1EF2D8c92dA7b83550e9a72F1acC081b68cB11"
 
 const contract = new web3.eth.Contract(abi, address)
 
