@@ -1,46 +1,66 @@
-## Blockchain Project
-## pre-requiests
-download node and npm
 
-### Setup Instructions
+Module : Blockchain
+gitHub : https://github.com/mani0999/blockchain_project.git
+DocerHub : 
+Image : 
 
-
-To install the dependencies 
-
-```$npm install web3```
-```$npm install express```
-```$npm install bignumber```
-
-To run the code as a web server:
-
-```$node handlers.js```
-
-To curl (see-url) your webserver and get it to interact with Ethereum:
-
-```curl -XGET http://localhost:8080/```
+ 
 
 
+***To Run this project please follow the below steps***
+Step I : 
+For downloading this project use below command (Make sure you have installed git on your local machine)
+ (Access is given to eoinco)
 
+ 
 
-### Docker
+Step II : 
+Extract the folder and open the folder and open it in your favouirate installed
 
-To build a docker container from your Dockerfile (and .dockerignore) files (note by default it uses the file called Dockerfile)
+ 
 
-```$docker build -t [user/tag] .```
+Step III : 
+Open Remix on broswer and paste the code from the ERC20.sol file
 
-Note the trailing . !
+ 
 
-To validate that your docker image is available
+Step IV : After pasting deploy the contract
 
-```$docker images```
+ 
 
-To see your running containers
+Step V : Wait till the creation gets completed 
 
-```$docker ps ```
+ 
 
-Finally, to run your docker container (validate it's running by seeing your running containers)
+Step VI : After creation please verfiy and publish your contract
 
-```$docker run -p 49160:8080 --name nci -d mani/blockchain_project```
+ 
+
+Step VII : Copy the contract address and paste it in method.js and contract.js
+for example :
+*** In method.js ***
+const contractAddress = '0x40950445281b8fef332964747861005df8a5b77f'
+
+ 
+
+*** In contract.js ***
+const address = "0x40950445281b8fef332964747861005df8a5b77f"
+
+ 
+
+Step VIII : Replace your metamask accounts in all the files
+
+ 
+
+Step IX : Install dependencies by running "npm i" command (All the required dependencies are already in package.json)
+
+ 
+
+Step X : Run method.js by using node method.js
+
+ 
+
+Step XI : Run handler.js using curl -XPOST http://localhost:8080/transfer or node handler.js
 
 
 
