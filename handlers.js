@@ -1,5 +1,5 @@
 let contract = require('./contract.js')
-let method = require('./method.js')
+let method = require('./token_transfer_method.js')
 
 const express = require('express')
 const { METHODS } = require('http')

@@ -1,66 +1,35 @@
 
-Module : Blockchain
-gitHub : https://github.com/mani0999/blockchain_project.git
-DocerHub : 
-Image : 
+#### pre-requiests
+install nodejs and npm
 
+### To Run this project please follow the below commands
+
+1. clone the project from gitHub link https://github.com/mani0999/blockchain_project.git (Access is given to eoinco)
+
+2. create meta mask account
+
+3. Open Remix on broswer and paste the code from the ERC20.sol file
+
+4. After pasting deploy the contract
+
+5. After creation please verfiy and publish your contract
+
+6. create infura account in infura.io
  
+7. Copy the contract address and paste it in token_transfer_method.js, contract.js and ether_transaction.js
 
+9. Replace your metamask accounts in all the files
 
-***To Run this project please follow the below steps***
-Step I : 
-For downloading this project use below command (Make sure you have installed git on your local machine)
- (Access is given to eoinco)
+10. Install dependencies by running "npm install" command (All the required dependencies are already in package.json)
+(or)
+npm install init (To create package.json)
+npm install express (To install framework)
+npm install web3
+npm install bignumber
 
- 
+11. Run method.js by using node method.js
 
-Step II : 
-Extract the folder and open the folder and open it in your favouirate installed
-
- 
-
-Step III : 
-Open Remix on broswer and paste the code from the ERC20.sol file
-
- 
-
-Step IV : After pasting deploy the contract
-
- 
-
-Step V : Wait till the creation gets completed 
-
- 
-
-Step VI : After creation please verfiy and publish your contract
-
- 
-
-Step VII : Copy the contract address and paste it in method.js and contract.js
-for example :
-*** In method.js ***
-const contractAddress = '0x40950445281b8fef332964747861005df8a5b77f'
-
- 
-
-*** In contract.js ***
-const address = "0x40950445281b8fef332964747861005df8a5b77f"
-
- 
-
-Step VIII : Replace your metamask accounts in all the files
-
- 
-
-Step IX : Install dependencies by running "npm i" command (All the required dependencies are already in package.json)
-
- 
-
-Step X : Run method.js by using node method.js
-
- 
-
-Step XI : Run handler.js using curl -XPOST http://localhost:8080/transfer or node handler.js
+12. Run handler.js using curl -XPOST http://localhost:8080/transfer or node handler.js
 
 
 
