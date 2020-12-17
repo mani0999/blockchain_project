@@ -1,5 +1,5 @@
 
-#### pre-requiests
+#### prerequisite ##
 install nodejs and npm
 
 ### To Run this project please follow the below commands
@@ -29,7 +29,7 @@ npm install bignumber
 
 11. Run method.js by using node method.js
 
-12. Run handler.js using curl -XPOST http://localhost:8080/transfer or node handler.js
+12. Run handler.js using node handler.js
 
 
 
