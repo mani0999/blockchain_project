@@ -22,9 +22,17 @@ install nodejs and npm
 
 10. Install dependencies by running "npm install" command (All the required dependencies are already in package.json)
 (or)
+
+
 npm install init (To create package.json)
+
+
 npm install express (To install framework)
+
+
 npm install web3
+
+
 npm install bignumber
 
 11. Run method.js by using node method.js
